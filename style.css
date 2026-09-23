@@ -1,0 +1,123 @@
+body{
+    background-color: #D8D3C9;
+      font-family: "Space Grotesk";
+      letter-spacing: -0.5px;
+      
+}
+
+h1{
+    font-size: 90px;
+    line-height: 0.90;
+    letter-spacing: -4px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.yellow a{
+    font-size: 14px;
+    color: black;
+}
+
+.blue a{
+    font-size: 14px;
+    color: #F5F2EA;
+}
+
+.all{
+display: flex;
+flex-direction: row;
+gap: 14px;
+padding: 28px 250px;
+height: 700px;
+}
+
+.main{
+background-color: #F5F2EA;
+display: flex;
+border-radius: 24px;
+flex-direction: column;
+width: 40%;
+padding: 28px;
+justify-content: space-between;
+}
+
+.four{
+display: flex;
+flex-direction: column;
+gap: 14px;
+width: 60%;
+}
+
+.top{
+display: flex;
+flex-direction: row;
+gap: 14px;
+height: 55%;
+}
+
+.black{
+background-color: #181818;
+display: flex;
+border-radius: 24px;
+flex-direction: column;
+width: 50%;
+padding: 28px;
+justify-content: space-between;
+color: #F5F2EA;
+}
+
+.yellow{
+background-color: #D8FF45;
+display: flex;
+border-radius: 24px;
+flex-direction: column;
+width: 50%;
+padding: 28px;
+justify-content: space-between;
+}
+
+.bottom{
+display: flex;  
+flex-direction: row;
+gap: 14px;
+height: 45%;
+}
+
+.white{
+background-color: #F5F2EA;
+display: flex;
+border-radius: 24px;
+flex-direction: column;
+width: 50%;
+padding: 28px;
+justify-content: space-between;
+}
+
+.blue{
+background-color: #6758F5;
+display: flex;
+border-radius: 24px;
+flex-direction: column;
+width: 50%;
+padding: 28px;
+justify-content: space-between;
+color: #F5F2EA;
+
+}
+
+.blue, .black, .yellow h2{
+    font-size: 35px;
+}
+
+
+
